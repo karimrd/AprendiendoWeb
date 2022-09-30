@@ -1,0 +1,60 @@
+/*Selector universal*/
+* {
+    background-color: lightgray;
+    /* color del texto */
+    color: magenta;
+
+}
+
+/*Selector de etiqueta*/
+h1{
+    color: darkorange;
+}
+
+h2{
+  color: palevioletred;
+}
+h3{
+    color: peru
+}
+
+/* Selector de clase*/
+.tipografia{
+    /*Tipografia*/
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  /*Tamaño*/
+    font-size: 30px;
+  /*Peso*/
+    font-weight: 900;
+  /*Alineacion*/ 
+    text-align: center; 
+}
+
+/*Selector de id*/
+#tagid{
+  color: blue;
+}
+
+#link{
+    text-align: center;
+    font-style: oblique;
+}
+
+/* Media queries*/
+@media only screen and (max-width: 600px){
+  body{
+    background-color: red;
+  }
+  p{
+    color: yellow;
+  }
+}
+
+/* puedo colocar dos etiquetas para manejarlas 
+  igual. */
+img, video {
+     /*Ancho*/
+     width: 400px;     
+     /*Alto*/ 
+     /*height: 400px;*/ 
+}
